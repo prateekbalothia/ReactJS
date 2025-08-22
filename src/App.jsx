@@ -6,6 +6,7 @@ import Services from './pages/Services'
 import Header from './components/Header'
 import Portfolio from './pages/Portfolio'
 import Practice from './pages/Practice'
+import Users from './pages/Users'
 // import Counter from './counter'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/practice' element={<Practice/>}/>
+        <Route path='/users' element={<Users/>}/>
       </Routes>
 
 

@@ -26,6 +26,9 @@ export default function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link active" to='/practice'>Practice</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to='/users'>Users</Link>
+                            </li>
                             
                         </ul>
                     </div>

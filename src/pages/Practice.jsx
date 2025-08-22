@@ -4,7 +4,8 @@ import Counter from '../components/practice/counter'
 import Prop from '../components/practice/prop'
 import Wrapper from '../components/practice/wrapper'
 import Textfields from '../components/practice/txtfield'
-import Concom from '../components/practice/Concom';
+import Formhndl from '../components/practice/Formhndl';
+import Formlocal from '../components/practice/Formlocal';
 
 
 export default function Practice() {
@@ -35,7 +36,8 @@ export default function Practice() {
                 <h2 style={{ color: 'pink' }}>Kya cheda be ________.</h2>
             </Wrapper>
             <Textfields />
-            <Concom/>
+            <Formhndl/>
+            {/* <Formlocal/> */}
         </>
     )
 }
